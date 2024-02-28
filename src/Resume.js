@@ -11,6 +11,7 @@ const Resume = () => {
                 width="850px"
                 height="1000px"
                 src="/jaceDerderian_resume.pdf"
+                referrerPolicy={"strict-origin"}
             />
         </div>
 
