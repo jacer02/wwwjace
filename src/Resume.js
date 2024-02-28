@@ -3,7 +3,7 @@ import "./Resume.css"
 
 const Resume = () => {
     return (
-        <div id={"resume"}>
+        <div id={"resumePage"}>
             <p>Here is my resume. Reach out if you have any questions!</p>
 
             <iframe
