@@ -1,0 +1,22 @@
+#projects {
+    background-color: white;
+    color: black;
+}
+
+#proj {
+    border-width: thick;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-family: Consolas, serif;
+
+    & p {
+        text-align: left;
+        margin-left: 10px;
+    }
+}
+#dataViz {
+    width: 600px;
+    height: 400px;
+}

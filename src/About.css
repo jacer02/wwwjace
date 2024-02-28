@@ -1,0 +1,27 @@
+#about {
+    background-color: white;
+    color: black;
+}
+#intro {
+    border-width: thick;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-family: Consolas, serif;
+
+    & p {
+        text-align: left;
+        margin-left: 10px;
+    }
+}
+
+#aboutIMG1 {
+    width: 600px;
+    height: 400px;
+    margin-right: 5px;
+}
+#aboutIMG2 {
+    width: 266px;
+    height: 400px;
+}

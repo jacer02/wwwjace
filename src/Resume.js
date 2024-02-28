@@ -1,12 +1,21 @@
 import React from 'react';
+import "./Resume.css"
 
-const Home = () => {
+const Resume = () => {
     return (
-        <div>
-            <h2>Home Page</h2>
-            <p>Welcome to the home page!</p>
+        <div id={"resume"}>
+            <p>Here is my resume. Reach out if you have any questions!</p>
+
+            <iframe
+                title="Resume PDF"
+                width="850px"
+                height="1000px"
+                src="/jaceDerderian_resume.pdf"
+            />
         </div>
+
+
     );
 };
 
-export default Home;
+export default Resume;
