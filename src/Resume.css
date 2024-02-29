@@ -2,3 +2,9 @@
     background-color: white;
     color: black;
 }
+#pdf {
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+    width: 100%;            /* Container to take up full width */
+    height: 600px;
+}

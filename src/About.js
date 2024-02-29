@@ -15,8 +15,8 @@ const About = () => {
                         -Always working on my old 1979 Schwinn Le Tour road bike.<br/>
                         -Grew up in Boise, Idaho.</p>
                     <div className="image-container">
-                        <img id="aboutIMG1" src="/surfJace.jpg" alt="Surfing Image"/>
-                        <img id="aboutIMG2" src="/bike.jpg" alt="Bike Image"/>
+                        <img id="aboutIMG1" src="/surfJace.jpg" alt="Surfing"/>
+                        <img id="aboutIMG2" src="/bike.jpg" alt="Bike"/>
                     </div>
                 </div>
 

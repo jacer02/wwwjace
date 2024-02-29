@@ -1,21 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Document, Page, pdfjs } from 'react-pdf';
 import "./Resume.css"
+import "react-pdf/dist/esm/Page/TextLayer.css";
+
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const Resume = () => {
     return (
         <div id={"resumePage"}>
             <p>Here is my resume. Reach out if you have any questions!</p>
-
-            <iframe
-                title="Resume PDF"
-                width="850px"
-                height="1000px"
-                src="/jaceDerderian_resume.pdf"
-                referrerPolicy={"strict-origin"}
-            />
+            <div id={"pdf"}>
+                <Document
+                    file="/jaceDerderian_resume.pdf"
+                >
+                    <Page pageNumber={1} />
+                </Document>
+            </div>
         </div>
-
-
     );
 };
 
