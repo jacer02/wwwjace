@@ -23,7 +23,7 @@ function App() {
                         {/*<MenuIcon />*/}
                     </IconButton>
                     <Typography id="intro" variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                        Welcome to Jace.com!
+                        Welcome to JaceCodes.com!
                     </Typography>
                     {/*<Button color="inherit">Login</Button>*/}
                 </Toolbar>
