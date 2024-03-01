@@ -2,9 +2,10 @@
     background-color: white;
     color: black;
 }
-#pdf {
+#resumeImage {
     justify-content: center; /* Centers horizontally */
     align-items: center;    /* Centers vertically */
-    width: 100%;            /* Container to take up full width */
-    height: 600px;
+    width: 50%;            /* Container to take up full width */
+    height: 50%;
 }
+

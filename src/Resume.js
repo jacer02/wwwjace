@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 import "./Resume.css"
 import "react-pdf/dist/esm/Page/TextLayer.css";
@@ -10,11 +10,7 @@ const Resume = () => {
         <div id={"resumePage"}>
             <p>Here is my resume. Reach out if you have any questions!</p>
             <div id={"pdf"}>
-                <Document
-                    file="/jaceDerderian_resume.pdf"
-                >
-                    <Page pageNumber={1} />
-                </Document>
+                <img id="resumeImage" src="/jace_resume2-1.png" alt="Resume"/>
             </div>
         </div>
     );

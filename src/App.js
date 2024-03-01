@@ -5,6 +5,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Resume from "./Resume";
 import Projects from "./Projects";
 import About from "./About";
+import Contact from "./Contact"
 import {BrowserRouter as Router, Route, Link, Routes} from 'react-router-dom';
 
 function App() {
@@ -40,11 +41,15 @@ function App() {
                                 <Link to="/about">
                                     <Button id="butt" color="inherit" sx={{marginRight: 5, marginLeft: 5}}>About Me</Button>
                                 </Link>
+                                <Link to="/contact">
+                                    <Button id="butt" color="inherit" sx={{marginRight: 5, marginLeft: 5}}>Contact Info</Button>
+                                </Link>
                         </Toolbar>
                     <Routes>
                         <Route exact path="/resume" element={<Resume/>} />
                         <Route exact path="/projects" element={<Projects/>} />
                         <Route exact path="/about" element={<About/>} />
+                        <Route exact path="/contact" element={<Contact/>} />
                         <Route path="/" element={<Resume />} />
 
                     </Routes>
