@@ -9,8 +9,7 @@ const Contact = () => {
             <h4>JaceWritesCode@gmail.com</h4>
             <a href="mailto:jacewritescode@gmail.com">Send email</a>
             <h4>208-912-4068</h4>
-            <a href="https://www.linkedin.com/in/jace-derderian/" target="_blank">LinkedIn</a>
-            <h4></h4>
+            <a href="https://www.linkedin.com/in/jace-derderian/" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
     );
 };

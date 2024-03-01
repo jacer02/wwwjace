@@ -1,7 +1,6 @@
 import './App.css';
 import React from "react";
 import {Typography, Button, Box, AppBar, Toolbar, IconButton} from '@mui/material';
-import MenuIcon from '@mui/icons-material/Menu';
 import Resume from "./Resume";
 import Projects from "./Projects";
 import About from "./About";
