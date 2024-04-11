@@ -6,7 +6,7 @@ const Resume = () => {
         <div id={"resumePage"}>
             <p>Here is my resume. Reach out if you have any questions!</p>
             <div id={"pdf"}>
-                <img id="resumeImage" src="/jace_resume2-1.png" alt="Resume"/>
+                <img id="resumeImage" src="/jaceDerderianResume_spring2024-1.png" alt="Resume"/>
             </div>
         </div>
     );

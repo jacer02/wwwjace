@@ -10,7 +10,7 @@ const About = () => {
             <Container>
                 <div id={"intro"}>
                     <h1> Jace Derderian </h1>
-                    <p>-Studying for a Bachelor of Science in Computer Science at Virginia Tech.<br/>
+                    <p>-Studying for a Bachelor of Science in Computer Science at Virginia Tech, graduating in May 2024!<br/>
                         -Avid surfer, former ski instructor, and amateur climber.<br/>
                         -Always working on my old 1979 Schwinn Le Tour road bike.<br/>
                         -Grew up in Boise, Idaho.</p>
